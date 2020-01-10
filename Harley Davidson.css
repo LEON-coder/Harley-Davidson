@@ -1,2612 +1,70 @@
+/*font-family: 'Teko', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
 /* стили для экрана 1366px */
 
- @media screen and (min-width: 1340px) 
- {
-     
+ * {
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+ }
+
+
 body {
 background: #232323;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
 width: 100%;
-overflow-x: hidden;
+
 }
 
 header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
+  background: #262626;
   width: 100%;
-}
+  height: 78px;
+  color: #f8f8f8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
 
-.Free_Delivery {
-   margin-left: -128px;
-}
-
-
-.Three_icons {
-  margin-right: -149px;
-}
-
-.account_circle {
-  padding-right: 23px;
-}
-
-.Mask_Group_39 {
-  padding-right: 23px;
-}
-
-.Mask_Group_01 {
-    
-}
-
-.Block_1 {
-position: absolute;
-top: 73px;
 }
 
 
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -11px;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -512px;
-left: 115px;
-width: 34%;
-  position: relative;
-  top: -612px;
-  left: 115px;
-  width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -198px;
-  left: -211px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 32px;
-  padding-left: 39px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 18pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: -3px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-}
-
-
-.main_nav {
-  position: absolute;
-  top: 123px;
-  display: flex;
-  justify-content: space-between;
-  list-style-image: url('img/main_1/Rectangle 168.png');
-left: 424px;
-}
-
-.main_nav li {
-  padding-right: 41px;
-  font-size: 22px;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-size: 22 px;
-  font-weight: bold;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 108px;
-  right: 67px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 37px;
-  padding-right: 38px;
-  padding-top: 23px;
-  padding-bottom: 26px;
-  font-size: 22px;
-}
-
-
-.Group_108 {
-  position: absolute;
-  right: 88px;
-  top: 626px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 64px;
-}
-
-
-
-.Block-2_section_one {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 28px;
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  flex-grow: 3;
-  margin-right: -179px;
-}
-
-
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-    
-    .content_info {
-        
-        
-    }
-
-.THE_FUEL_ROYAL_RALLY {
-    
-  align-self: flex-start;
-  position: absolute;
-  top: 907px;
-  left: 145px;
-}
-
-.OFF {
-  left: -32px;
-  align-self: center;
-  position: relative;
-  top: 83px;
-}
-
-.UP_TO {
-  position: relative;
-  top: -14px;
-  left: -169px;
-  align-self: center;
-}
-
-.two-section {
+.container-header {
+width: 1060px;
+margin-right: auto;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  padding-top: 45px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -6px;
-  margin-right: 35px;
-  align-content: center;
-  align-items: center;
-  padding-top: 52px;
-}
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 387px;
-}
-
-
-.Helmets_List_and_stripe {
-    
-    
-  display: flex;
-  flex-direction: column;
-}
-
-
-.Helmets_List {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  padding-left: 265px;
-  margin-top: -126px;
-  padding-bottom: 75px;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 90px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
-  }
-
-
-.stripe_helmets {
-  padding-top: 1px;
-  margin-top: -57px;
-  background: grey;
-  margin-left: -7px;
-  margin-right: 35px;
-}
-
-.pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-}
-
-.Group357 {
-    
-}
-
-.Group356 {
-    
-}
-
-
-
-.block-3 {
-  padding-top: 125px;
-  padding-left: 23px;
-  margin-right: -62px;
-  display: flex;
-  flex-direction: column;
-}
-
-.Block-3_2-pictures {
-  display: flex;
-  padding-bottom: 40px;
-}
-
-.speedometers {
-  padding-right: 40px;
-}
-
-.block-3-Sunset {
- margin-right: -250px;
-}
-
-.Blue_Background {
-    
-}
-
-.SAVE-UP-TO-75 {
-  display: flex;
-  padding-left: 378px;
-  padding-right: 350px;
-  position: relative;
-  top: -373px;
-}
-
-.your-mail-address {
-  position: relative;
-  left: 197px;
-  top: -282px;
-  width: 827px;
-  height: 62px;
-}
-
-.submit {
-  position: relative;
-  top: -350px;
-  right: -929px;
-  height: 48px;
-  background: #004cff;
-  width: 190px;
-  display: block;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 20px;
-  font-family: 'Montserrat SemiBolt';
-}
-
-.Block-4 {
-    display: flex;
+-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
     justify-content: space-between;
-
-flex-direction: row;
-    margin-left: -82px;
-    margin-bottom: -103px;
-}
-
-.Track {
-  margin-top: -63px;
-  margin-left: -35px;
-}
-
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
-}
-
-.Mask-Group-25 {
-  position: relative;
-  left: 265px;
-  top: -127px;
-}
-
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: 287px;
-  top: -128px;
-}
-
-
-.Money {
-  margin-left: 356px;
-}
-
-
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
-}
-
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -124px;
-}
-
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -166px;
-  top: -217px;
-}
-
-.Call-centr {
-  margin-left: -11px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: relative;
-  top: -128px;
-  left: -45px;
-}
-
-.Group-164 {
-    
-  position: relative;
-  top: -127px;
-  left: -17px;
-}
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: -101px;
-  margin-left: -7px;
-  overflow-x: hidden;
-  margin-top: -196px;
-}
-
-
-.common-information {
-    
-  margin-left: -254px;
-}
-
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: flex-start;
-  margin-right: -169px;
-  margin-left: -175px;
-}
-
-.About-us {
-    
-}
-
-.The-new-hero {
-  margin-top: 40px;
-}
-
-
-.Follow {
-padding-top: 45px;
-}
-
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
-}
-
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.info {
-  padding-left: 501px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -280px;
-  text-decoration: none;
-}
-
-.List_of_Block-6 {
-  margin-top: -267px;
-  padding-left: 505px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-}
-
-
-.List_of_Block-5 li {
-  color: white;
-  padding-top: 15px;
-}
-
-.List_of_Block-5 li a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-.Returns {
-
-  color: white;
-  padding-left: 751px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-6 {
-  margin-top: -405px;
-  padding-left: 597px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-}
-
-.List_of_Block-6 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-6 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block-8 {
-  padding-left: 1095px;
-  position: relative;
-  top: 514px;
-}
-
-.List_of_Block-8 {
-
-}
-
-.Block_9 {
-    position: relative;
-
-top: -366px;
-
-left: 766px;
-}
-
-
-.Group-368 {
-  position: relative;
-  left: 910px;
-  top: -457px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: 673px;
-  top: -322px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -926px;
-  top: -277px;
-}
-
-.Group-366 {
-    
-    
-}
-
-.Group-365 {
-    
-}
-
-.Group-364 {
-    
-}
-
-
-.Shape-201 {
- position: relative;
-top: -113px;
-margin-left: 72px;
-margin-right: -19px;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  margin-top: -146px;
-  padding-right: 87px;
-}
-
-
-
-.Status {
-    
-  padding-left: 345px;
-}
-
-.Contact-Us {
-    
-    
-  margin-left: -420px;
-}
-
-.Copyright-2019 {
-    
-  margin-left: 28px;
-  margin-right: 31px;
-}
-}
-
-
-
-
-
-
-
-
-/* Стили для экрана 320px */
-@media screen and (min-width: 320px) 
-{
-
-body {
-background: #232323;
-width: 92%;
-overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.Free_Delivery {
-   margin-left: 13px;
-}
-
-
-.Three_icons {
-  margin-right: -53px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 34px;
-}
-
-.account_circle {
-  padding-right: 12px;
-}
-
-.Mask_Group_39 {
-  padding-right: 15px;
-}
-
-.Mask_Group_01 {
-    
-}
-
-.Block_1 {
-position: absolute;
-top: 73px;
-}
-
-
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -8px;
-  height: 416px;
-  background-origin: padding-box;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -282px;
-left: 33px;
-width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -140px;
-  left: -155px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 12px;
-  padding-left: 12px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 13pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: 37px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-  width: 23%;
-}
-
-
-.main_nav {
-  position: absolute;
-  flex-direction: column;
-  width: 100%;
-  top: -40px;
-  display: none;
-  padding-top: 33px;
-  left: -515px;
-  transition: 0.4s ease-out;
-  background-color: grey;
-  z-index: 3;
-  height: 397px;
-  padding-left: 339px;
-  padding-right: 206px;
-  align-self: center;
-}
-
-.mobile_burger_button {
-
-  position: relative;
-  top: -465px;
-  left: 386px;
-  width: 55px;
-  display: flex;
-  background: grey;
-  height: 43px;
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
-.line-1 {
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  top: 21px;
-  right: 13px;
-}
-
-
-.line-1::before {
-  content: "";
-  margin-top: 7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-
-.line-1::after {
-  content: "";
-  margin-top: -7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-.mobile_burger_button:hover .main_nav {
-display: flex;
 margin-left: auto;
-margin-right: auto;
-position: absolute;
-padding-right: 206px;
-align-items: center;
-}
-
-.main_nav li {
-  font-size: 18px;
-  display: flex;
-  width: 100%;
-  padding-top: 38px;
-  padding-bottom: 32px;
-  align-content: center;
-  align-items: center;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -349px;
-  position: relative;
-  transition: 0.3s ease-in;
-  padding-left: 353px;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 6px;
-}
-  
-  .main_nav li:hover {
-  background: white;
-  font-size: 18px;
-  display: flex;
-  padding-top: 38px;
-  padding-left: 342px;
-  padding-right: 276px;
-  padding-bottom: 32px;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -339px;
-  position: relative;
-  transition: 0.3s ease-in;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 392px;
-  right: 67px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
-}
-
-
-.Group_108 {
-  position: relative;
-  right: -60px;
-  top: -115px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 104px;
-  margin-top: -61px;
-}
-
-
-
-.Block-2_section-one {
-    
-   
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  margin-right: 32px;
-}
-    
-.one :hover .THE_FUEL_ROYAL_RALLY-1  {
-      display: flex;  
-         }
-    
-.one :hover .OFF-1 {
-      display: flex;  
-         }
-
- .one:hover .UP_TO-1  {
-      display: flex;  
-         }        
-  
-.one:hover .Blue-background-1 {
-      display: flex;  
-    }
-    
-    
-.THE_FUEL_ROYAL_RALLY-1 {
-  margin-top: 42px;
-  left: 55px;
-  width: 30%;
-  display: none;
-  position: absolute;
-  z-index: 2;
-}
-
-.OFF-1 {
-  left: 367px;
-  position: absolute;
-  top: 635px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.UP_TO-1 {
-  position: absolute;
-  left: 367px;
-  top: 581px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.Blue-background-1 {
-  position: absolute;
-  width: 462px;
-  left: 31px;
-  top: 525px;
-  height: 210px;
-  display: none;
-  opacity: 0.7;
-    }
-    
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-
-
-
-.two-section {
-display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  display: flex;
-  flex-direction: column;
-  align-items: normal;
-  width: 100%;
-  margin-left: 38px;
-  margin-top: -37px;
-  align-content: center;
-}
-  
-  .Helmets_List_and_stripe {
-    
-    
-  }
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -6px;
-  margin-right: 34px;
-  align-content: center;
-  align-items: center;
-  margin-top: -45px;
-}
-  
- 
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  display: flex;
-  align-self: center;
-  padding-right: 17px;
-}
-
-.Helmets_List {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  margin-top: -126px;
-  padding-bottom: 75px;
-  margin-left: -47px;
-  position: relative;
-  width: 200px;
-  flex-wrap: wrap;
-  width: 130%;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 52px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
-  }
-
-
-.stripe_helmets {
-  padding-top: 1px;
-  margin-top: -57px;
-  background: grey;
-  margin-left: -7px;
-  margin-right: 35px;
-}
-
-.pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-  padding-right: 20px;
-}
-
-.Group357 {
-    
-  padding-right: 20px;
-}
-
-.Group356 {
-    
-}
-
-
-
-.block-3 {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 33px;
-  margin-right: -5px;
-}
-
-.speedometer {
-  padding-right: 40px;
-}
-  
-.speedometer:hover .block-3_UP_TO  {
-    direction: flex;
-  }
-  
-  .speedometer:hover .THE_FUEL_ROYAL_RALLY-3-1  {
-    direction: flex;
-  }
-  
-.THE_FUEL_ROYAL_RALLY-3-1 {
-    
-  align-self: center;
-  position: absolute;
-  left: -188px;
-  width: 20%;
-  top: 3083px;
-  z-index: 1;
-  display: none;
-  }
-
-    
- .block-3_UP_TO {
-  position: absolute;
-  top: 1425px;
-  align-self: center;
-  left: 152px;
-  width: 10%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .block-3_OFF {
-    
-  position: absolute;
-  top: 1462px;
-  left: 152px;
-  align-self: flex-start;
-  width: 11%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .Block-3_Blue-Background {
-    
-  position: relative;
-  top: -265px;
-  left: -1px;
-  margin-right: 327px;
-  margin-top: -23px;
-  height: 181px;
-  opacity: 0.7;
-  display: none;
-  }
-  
-
-.Sunset {
- margin-right: 2px;
-}
-
-    
-.Block-3_2 {
-      background-image: url('img/Block_3/harley-davidson-6_OBa-II5Go-unsplash.jpg');
-      width: 95%;
-      height: 260px;
-      display: flex;
-      flex-direction: column;
-      margin-right: 206px;
-      background-origin: content-box;
-      background-size: contain;
-      position: relative;
-      margin-top: 34px;
-      margin-left: 33px;
-      background-repeat: no-repeat;
-    }   
-  .Block-3_2:hover .Block-3_2_Blue-Background {
-    display: flex;
-  } 
-  
-    .Block-3_2:hover .SAVE-UP-TO-75 {
-    display: flex;
-  } 
-  
-  .Block-3_2:hover .your-mail-address {
-    display: flex;
-    margin-top: 100px;
-  } 
-  
-   .Block-3_2:hover .submit {
-    display: flex;
-    margin-left: 3px;
-    padding-left: 23px;
-  } 
-    
-.Block-3_2_Blue-Background {
-  width: 100%;
-  height: 215px;
-  display: none;
-  align-self: center;
-  margin-right: 296px;
-  margin-left: 296px;
-  opacity: 0.7;
-}
-
-.SAVE-UP-TO-75 {
-  display: flex;
-  position: absolute;
-  top: -4px;
-  width: 53%;
-  align-self: center;
-  color: white;
-  font-size: 20pt;
-  font-family: 'Montesserat';
-  text-align: center;
-  font-weight: bold;
-  display: none;
-  left: 112px;
-}
-
-.your-mail-address {
-  position: relative;
-  left: 37px;
-  top: -194px;
-  width: 197px;
-  height: 52px;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 16px;
-  flex-grow: 3;
-  padding-left: 18px;
-  display: none;
-}
-
-.submit {
-  position: relative;
-  top: -243px;
-  right: -252px;
-  background: #004cff;
-  width: 106px;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 11px;
-  font-family: 'Montserrat SemiBolt';
-  display: none;
-  padding-bottom: 15px;
-}
-
-.Block-4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 87px;
-    margin-right: auto;
-    margin-top: 84px;
-    align-items: center;
+-ms-flex-line-pack: center;
     align-content: center;
-    flex-wrap: wrap;
-    margin-left: -96px;
-}
-
-.Track {
-  margin-top: -63px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-left: 132px;
-  margin-right: auto;
-  position: relative;
-}
-
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
-}
-
-.Mask-Group-25 {
-  position: relative;
-  left: -285px;
-  top: -27px;
-  align-content: center;
-  align-self: center;
-  display: flex;
-}
-
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: -253px;
-  top: -25px;
-}
-
-
-.Money {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 135px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  left: 345px;
-}
-
-
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
-}
-
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -60px;
-}
-
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -250px;
-  top: -63px;
-}
-
-.Call-centr {
-  position: relative;
-  margin-left: 251px;
-  margin-top: 136px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: relative;
-  top: -134px;
-  left: -26px;
-}
-
-.Group-164 {
-    
-  position: relative;
-  top: -127px;
-  left: 6px;
-}
-
-
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  margin-top: -115px;
-  margin-right: -40px;
-  margin-left: -8px;
-}
-    
-.common-information {
-    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  margin-left: -486px;
-}
-
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: relative;
-  left: 197px;
-}
-
-.About-us {
-    
-  align-self: baseline;
-}
-
-.The-new-hero {
-  margin-top: 40px;
-  align-self: baseline;
-}
-
-
-.Follow {
-padding-top: 45px;
-align-self: baseline;
-}
-
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
-}
-
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.Block-7 {
-        
-        
-  margin-left: 263px;
-    }
-
-.info {
-  left: 502px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -275px;
-  text-decoration: none;
-}
-
-.List_of_Block-7  {
-  margin-top: -267px;
-  padding-left: 505px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-}
-
-
-.List_of_Block-7 li {
-  color: white;
-  padding-top: 15px;
-}
-
-.List_of_Block-7 li a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-
-.Block-8 {
-  position: relative;
-  left: -268px;
-  top: 425px;
-}
-
-.Returns {
-
-  color: white;
-  padding-left: 745px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-8 {
-  margin-top: -282px;
-  padding-left: 746px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  position: relative;
-}
-
-.List_of_Block-8 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-8 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block_9 {
-    
-  position: relative;
-  top: 120px;
-  left: 371px;
-}
-
-.Group-368 {
-  position: relative;
-  left: 70px;
-  top: 12px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: -169px;
-  top: 146px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -85px;
-  top: 179px;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 255px;
-}
-
-    
-.Group-364:hover {
-    border: 2px solid Gold;
-    transition-duration: 1s ease-in-out;
-    border: 4px solid gold;
-    transition: 0.3s ease-in-out;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-bottom: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-}
-    
-.Group-366:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-    
-}
-
-.Group-365:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-}
-
-
-
-
-.Shape-201 {
-  position: relative;
-  top: 326px;
-  margin-left: 29px;
-  margin-right: 17px;
-}
-
-footer {
-  display: flex;
-  margin-top: 364px;
-  padding-bottom: 47px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.Status {
-    
-  padding-left: 28px;
-  padding-right: 98px;
-}
-
-
-.Copyright-2019 {
-    
-  display: flex;
-  padding-top: 43px;
-  padding-left: 107px;
-}
-}
-
-
-
-
-/* Стили для экрана 480px */
-@media screen and (min-width: 480px) 
-{
-
-body {
-background: #232323;
-width: 92%;
-overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.Free_Delivery {
-   margin-left: 13px;
-}
-
-
-.Three_icons {
-  margin-right: -53px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 34px;
-}
-
-.account_circle {
-  padding-right: 12px;
-}
-
-.Mask_Group_39 {
-  padding-right: 15px;
-}
-
-.Mask_Group_01 {
-    
-}
-
-.Block_1 {
-position: absolute;
-top: 73px;
-}
-
-
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -8px;
-  height: 416px;
-  background-origin: padding-box;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -282px;
-left: 33px;
-width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -140px;
-  left: -155px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 12px;
-  padding-left: 12px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 13pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: 37px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-  width: 23%;
-}
-
-
-.main_nav {
-  position: absolute;
-  flex-direction: column;
-  width: 100%;
-  top: -40px;
-  display: none;
-  padding-top: 33px;
-  left: -515px;
-  transition: 0.4s ease-out;
-  background-color: grey;
-  z-index: 3;
-  height: 397px;
-  padding-left: 339px;
-  padding-right: 206px;
-  align-self: center;
-}
-
-.mobile_burger_button {
-
-  position: relative;
-  top: -465px;
-  left: 386px;
-  width: 55px;
-  display: flex;
-  background: grey;
-  height: 43px;
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
-.line-1 {
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  top: 21px;
-  right: 13px;
-}
-
-
-.line-1::before {
-  content: "";
-  margin-top: 7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-
-.line-1::after {
-  content: "";
-  margin-top: -7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-.mobile_burger_button:hover .main_nav {
-display: flex;
-margin-left: auto;
-margin-right: auto;
-position: absolute;
-padding-right: 206px;
-align-items: center;
-}
-
-.main_nav li {
-  font-size: 18px;
-  display: flex;
-  width: 100%;
-  padding-top: 38px;
-  padding-bottom: 32px;
-  align-content: center;
-  align-items: center;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -349px;
-  position: relative;
-  transition: 0.3s ease-in;
-  padding-left: 353px;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 6px;
-}
-  
-  .main_nav li:hover {
-  background: white;
-  font-size: 18px;
-  display: flex;
-  padding-top: 38px;
-  padding-left: 342px;
-  padding-right: 276px;
-  padding-bottom: 32px;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -339px;
-  position: relative;
-  transition: 0.3s ease-in;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 392px;
-  right: 67px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
-}
-
-
-.Group_108 {
-  position: relative;
-  right: -60px;
-  top: -115px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 104px;
-  margin-top: -61px;
-}
-
-
-
-.Block-2_section-one {
-    
-   
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  margin-right: 32px;
-}
-    
-.one :hover .THE_FUEL_ROYAL_RALLY-1  {
-      display: flex;  
-         }
-    
-.one :hover .OFF-1 {
-      display: flex;  
-         }
-
- .one:hover .UP_TO-1  {
-      display: flex;  
-         }        
-  
-.one:hover .Blue-background-1 {
-      display: flex;  
-    }
-    
-    
-.THE_FUEL_ROYAL_RALLY-1 {
-  margin-top: 42px;
-  left: 55px;
-  width: 30%;
-  display: none;
-  position: absolute;
-  z-index: 2;
-}
-
-.OFF-1 {
-  left: 367px;
-  position: absolute;
-  top: 635px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.UP_TO-1 {
-  position: absolute;
-  left: 367px;
-  top: 581px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.Blue-background-1 {
-  position: absolute;
-  width: 462px;
-  left: 31px;
-  top: 525px;
-  height: 210px;
-  display: none;
-  opacity: 0.7;
-    }
-    
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-
-
-
-.two-section {
-display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  display: flex;
-  flex-direction: column;
-  align-items: normal;
-  width: 100%;
-  margin-left: 38px;
-  margin-top: -37px;
-  align-content: center;
-}
-  
-  .Helmets_List_and_stripe {
-    
-    
-  }
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -6px;
-  margin-right: 34px;
-  align-content: center;
-  align-items: center;
-  margin-top: -45px;
-}
-  
- 
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  display: flex;
-  align-self: center;
-  padding-right: 17px;
-}
-
-.Helmets_List {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  margin-top: -126px;
-  padding-bottom: 75px;
-  margin-left: -47px;
-  position: relative;
-  width: 200px;
-  flex-wrap: wrap;
-  width: 130%;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 52px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
-  }
-
-
-.stripe_helmets {
-  padding-top: 1px;
-  margin-top: -57px;
-  background: grey;
-  margin-left: -7px;
-  margin-right: 35px;
-}
-
-.pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-  padding-right: 20px;
-}
-
-.Group357 {
-    
-  padding-right: 20px;
-}
-
-.Group356 {
-    
-}
-
-
-
-.block-3 {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 33px;
-  margin-right: -5px;
-}
-
-.speedometer {
-  padding-right: 40px;
-}
-  
-.speedometer:hover .block-3_UP_TO  {
-    direction: flex;
-  }
-  
-  .speedometer:hover .THE_FUEL_ROYAL_RALLY-3-1  {
-    direction: flex;
-  }
-  
-.THE_FUEL_ROYAL_RALLY-3-1 {
-    
-  align-self: center;
-  position: absolute;
-  left: -188px;
-  width: 20%;
-  top: 3083px;
-  z-index: 1;
-  display: none;
-  }
-
-    
- .block-3_UP_TO {
-  position: absolute;
-  top: 1425px;
-  align-self: center;
-  left: 152px;
-  width: 10%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .block-3_OFF {
-    
-  position: absolute;
-  top: 1462px;
-  left: 152px;
-  align-self: flex-start;
-  width: 11%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .Block-3_Blue-Background {
-    
-  position: relative;
-  top: -265px;
-  left: -1px;
-  margin-right: 327px;
-  margin-top: -23px;
-  height: 181px;
-  opacity: 0.7;
-  display: none;
-  }
-  
-
-.Sunset {
- margin-right: 2px;
-}
-
-    
-.Block-3_2 {
-      background-image: url('img/Block_3/harley-davidson-6_OBa-II5Go-unsplash.jpg');
-      width: 95%;
-      height: 260px;
-      display: flex;
-      flex-direction: column;
-      margin-right: 206px;
-      background-origin: content-box;
-      background-size: contain;
-      position: relative;
-      margin-top: 34px;
-      margin-left: 33px;
-      background-repeat: no-repeat;
-    }   
-  .Block-3_2:hover .Block-3_2_Blue-Background {
-    display: flex;
-  } 
-  
-    .Block-3_2:hover .SAVE-UP-TO-75 {
-    display: flex;
-  } 
-  
-  .Block-3_2:hover .your-mail-address {
-    display: flex;
-    margin-top: 100px;
-  } 
-  
-   .Block-3_2:hover .submit {
-    display: flex;
-    margin-left: 3px;
-    padding-left: 23px;
-  } 
-    
-.Block-3_2_Blue-Background {
-  width: 100%;
-  height: 215px;
-  display: none;
-  align-self: center;
-  margin-right: 296px;
-  margin-left: 296px;
-  opacity: 0.7;
-}
-
-.SAVE-UP-TO-75 {
-  display: flex;
-  position: absolute;
-  top: -4px;
-  width: 53%;
-  align-self: center;
-  color: white;
-  font-size: 20pt;
-  font-family: 'Montesserat';
-  text-align: center;
-  font-weight: bold;
-  display: none;
-  left: 112px;
-}
-
-.your-mail-address {
-  position: relative;
-  left: 37px;
-  top: -194px;
-  width: 197px;
-  height: 52px;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 16px;
-  flex-grow: 3;
-  padding-left: 18px;
-  display: none;
-}
-
-.submit {
-  position: relative;
-  top: -243px;
-  right: -252px;
-  background: #004cff;
-  width: 106px;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 11px;
-  font-family: 'Montserrat SemiBolt';
-  display: none;
-  padding-bottom: 15px;
-}
-
-.Block-4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 87px;
-    margin-right: auto;
-    margin-top: 84px;
+-webkit-box-align: center;
+        -ms-flex-align: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-left: -96px;
+margin-top: 20px;
+
 }
 
-.Track {
-  margin-top: -63px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-left: 132px;
-  margin-right: auto;
-  position: relative;
+.advertisement {
+font-size: 12px;
+font-weight: 500;
+
 }
 
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
+.icons {
+  margin-right: 10px;
 }
-
-.Mask-Group-25 {
-  position: relative;
-  left: -285px;
-  top: -27px;
-  align-content: center;
-  align-self: center;
-  display: flex;
-}
-
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: -253px;
-  top: -25px;
-}
-
-
-.Money {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 135px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  left: 345px;
-}
-
-
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
-}
-
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -60px;
-}
-
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -250px;
-  top: -63px;
-}
-
-.Call-centr {
-  position: relative;
-  margin-left: 251px;
-  margin-top: 136px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: relative;
-  top: -134px;
-  left: -26px;
-}
-
-.Group-164 {
-    
-  position: relative;
-  top: -127px;
-  left: 6px;
-}
-
-
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  margin-top: -115px;
-  margin-right: -40px;
-  margin-left: -8px;
-}
-    
-.common-information {
-    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  margin-left: -486px;
-}
-
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: relative;
-  left: 197px;
-}
-
-.About-us {
-    
-  align-self: baseline;
-}
-
-.The-new-hero {
-  margin-top: 40px;
-  align-self: baseline;
-}
-
-
-.Follow {
-padding-top: 45px;
-align-self: baseline;
-}
-
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
-}
-
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.Block-7 {
-        
-        
-  margin-left: 263px;
-    }
-
-.info {
-  left: 502px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -275px;
-  text-decoration: none;
-}
-
-.List_of_Block-7  {
-  margin-top: -267px;
-  padding-left: 505px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-}
-
-
-.List_of_Block-7 li {
-  color: white;
-  padding-top: 15px;
-}
-
-.List_of_Block-7 li a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-
-.Block-8 {
-  position: relative;
-  left: -268px;
-  top: 425px;
-}
-
-.Returns {
-
-  color: white;
-  padding-left: 745px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-8 {
-  margin-top: -282px;
-  padding-left: 746px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  position: relative;
-}
-
-.List_of_Block-8 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-8 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block_9 {
-    
-  position: relative;
-  top: 120px;
-  left: 371px;
-}
-
-.Group-368 {
-  position: relative;
-  left: 70px;
-  top: 12px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: -169px;
-  top: 146px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -85px;
-  top: 179px;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 255px;
-}
-
-    
-.Group-364:hover {
-    border: 2px solid Gold;
-    transition-duration: 1s ease-in-out;
-    border: 4px solid gold;
-    transition: 0.3s ease-in-out;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-bottom: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-}
-    
-.Group-366:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-    
-}
-
-.Group-365:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-}
-
-
-
-
-.Shape-201 {
-  position: relative;
-  top: 326px;
-  margin-left: 29px;
-  margin-right: 17px;
-}
-
-footer {
-  display: flex;
-  margin-top: 364px;
-  padding-bottom: 47px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.Status {
-    
-  padding-left: 28px;
-  padding-right: 98px;
-}
-
-
-.Copyright-2019 {
-    
-  display: flex;
-  padding-top: 43px;
-  padding-left: 107px;
-}
-}
-
-
-
-
-/* Стили для экрана 600px */
-@media screen and (min-width: 600px) 
-    
-{
-
-body {
-background: #232323;
-width: 92%;
-overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.Free_Delivery {
-   margin-left: 13px;
-}
-
 
 .Three_icons {
-  margin-right: -16px;
+ margin-right: -1026px;
+margin-top: -59px;
+-ms-grid-row-align: center;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 
 .account_circle {
@@ -2621,2532 +79,1046 @@ header {
     
 }
 
-.Block_1 {
-position: absolute;
-top: 73px;
-}
-
-
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -8px;
-  height: 416px;
-  background-origin: padding-box;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -222px;
-left: 33px;
-width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -140px;
-  left: -155px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 12px;
-  padding-left: 12px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 16pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: -3px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-  width: 23%;
-}
-
-
-.main_nav {
-  position: absolute;
-  flex-direction: column;
-  width: 100%;
-  top: -40px;
-  display: none;
-  padding-top: 23px;
-  left: -515px;
-  transition: 0.4s ease-out;
-  background-color: grey;
-  z-index: 3;
-  height: 393px;
-  padding-left: 339px;
-  padding-right: 206px;
-  align-self: center;
-}
-
-.mobile_burger_button {
-
-  position: relative;
-  top: -465px;
-  left: 506px;
-  width: 55px;
-  display: flex;
-  background: grey;
-  height: 43px;
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
-.line-1 {
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  top: 21px;
-  right: 13px;
-}
-
-
-.line-1::before {
-  content: "";
-  margin-top: 7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-
-.line-1::after {
-  content: "";
-  margin-top: -7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-.mobile_burger_button:hover .main_nav {
-display: flex;
-margin-left: auto;
-margin-right: auto;
-position: absolute;
-padding-right: 206px;
-align-items: center;
-flex-direction: column;
-align-content: center;
-left: -677px;
-padding-left: 447px;
-padding-right: 269px;
-margin-top: -107px;
-}
-
-.main_nav li {
-  font-size: 18px;
-  display: flex;
-  padding-top: 38px;
-  padding-left: 291px;
-  padding-bottom: 32px;
-  align-items: center;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -349px;
-  position: relative;
-  transition: 0.3s ease-in;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 6px;
-}
-  
-  .main_nav li:hover {
-  background: white;
-  font-size: 18px;
-  display: flex;
-  padding-top: 38px;
-  padding-left: 286px;
-  padding-right: 276px;
-  padding-bottom: 32px;
-  z-index: 2;
-  margin-top: -22px;
-  margin-left: auto;
-  margin-right: auto;
-  left: -339px;
-  position: relative;
-  transition: 0.3s ease-in;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 378px;
-  right: 87px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
-}
-
-
-.Group_108 {
-  position: relative;
-  right: -130px;
-  top: -115px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 104px;
-  margin-top: -61px;
-}
-
-
-
-.Block-2_section-one {
-    
-   
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  margin-right: 32px;
-}
-    
-.one :hover .THE_FUEL_ROYAL_RALLY-1  {
-      display: flex;  
-         }
-    
-.one :hover .OFF-1 {
-      display: flex;  
-         }
-
- .one:hover .UP_TO-1  {
-      display: flex;  
-         }        
-  
-.one:hover .Blue-background-1 {
-      display: flex;  
-    }
-    
-    
-.THE_FUEL_ROYAL_RALLY-1 {
-  margin-top: 42px;
-  left: 55px;
-  width: 30%;
-  display: none;
-  position: absolute;
-  z-index: 2;
-}
-
-.OFF-1 {
-  left: 367px;
-  position: absolute;
-  top: 635px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.UP_TO-1 {
-  position: absolute;
-  left: 367px;
-  top: 581px;
-  display: none;
-  width: 10%;
-  z-index: 2;
-}
-
-.Blue-background-1 {
-  position: absolute;
-  width: 462px;
-  left: 31px;
-  top: 525px;
-  height: 210px;
-  display: none;
-  opacity: 0.7;
-    }
-    
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-
-
-
-.two-section {
-display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  display: flex;
-  flex-direction: column;
-  align-items: normal;
-  width: 100%;
-  margin-left: 38px;
-  margin-top: -37px;
-  align-content: center;
-}
-  
-  .Helmets_List {
-    display: flex;
-list-style: none;
-text-decoration: none;
-margin-top: -126px;
-padding-bottom: 75px;
-margin-left: -47px;
-position: relative;
-padding-right: 113px;
-flex-direction: row;
-width: 150%;
-    
-  }
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -6px;
-  margin-right: 34px;
-  align-content: center;
-  align-items: center;
-  margin-top: -45px;
-}
-  
- 
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  display: flex;
-  align-self: center;
-  padding-left: 0px;
-}
-
-.Helmets_List {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  margin-top: -126px;
-  padding-bottom: 75px;
-  margin-left: -47px;
-  position: relative;
-  padding-right: 113px;
-  flex-direction: row;
-  width: 150%;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 90px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
-  }
-
-
-.stripe_helmets {
-  padding-top: 1px;
-  margin-top: -57px;
-  background: grey;
-  margin-left: -7px;
-  margin-right: 35px;
-}
-
-.pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-  padding-right: 20px;
-}
-
-.Group357 {
-    
-  padding-right: 20px;
-}
-
-.Group356 {
-    
-}
-
-
-
-.block-3 {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 33px;
-  margin-right: -5px;
-}
-
-.speedometer {
-  padding-right: 40px;
-}
-  
-.speedometer:hover .block-3_UP_TO  {
-    direction: flex;
-  }
-  
-  .speedometer:hover .THE_FUEL_ROYAL_RALLY-3-1  {
-    direction: flex;
-  }
-  
-.THE_FUEL_ROYAL_RALLY-3-1 {
-    
-  align-self: center;
-  position: absolute;
-  left: -188px;
-  width: 20%;
-  top: 3083px;
-  z-index: 1;
-  display: none;
-  }
-
-    
- .block-3_UP_TO {
-  position: absolute;
-  top: 1425px;
-  align-self: center;
-  left: 152px;
-  width: 10%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .block-3_OFF {
-    
-  position: absolute;
-  top: 1462px;
-  left: 152px;
-  align-self: flex-start;
-  width: 11%;
-  z-index: 1;
-  display: none;
-  }
-  
-  .Block-3_Blue-Background {
-    
-  position: relative;
-  top: -265px;
-  left: -1px;
-  margin-right: 327px;
-  margin-top: -23px;
-  height: 181px;
-  opacity: 0.7;
-  display: none;
-  }
-  
-
-.Sunset {
- margin-right: 2px;
-}
-
-    
-.Block-3_2 {
-      background-image: url('img/Block_3/harley-davidson-6_OBa-II5Go-unsplash.jpg');
-      width: 95%;
-      height: 260px;
-      display: flex;
-      flex-direction: column;
-      margin-right: 206px;
-      background-origin: content-box;
-      background-size: contain;
-      position: relative;
-      margin-top: 34px;
-      margin-left: 33px;
-      background-repeat: no-repeat;
-    }   
-  .Block-3_2:hover .Block-3_2_Blue-Background {
-    display: flex;
-  } 
-  
-    .Block-3_2:hover .SAVE-UP-TO-75 {
-    display: flex;
-  } 
-  
-  .Block-3_2:hover .your-mail-address {
-    display: flex;
-    margin-top: 100px;
-  } 
-  
-   .Block-3_2:hover .submit {
-    display: flex;
-    margin-left: 3px;
-    padding-left: 23px;
-  } 
-    
-.Block-3_2_Blue-Background {
-  width: 100%;
-  height: 215px;
-  display: none;
-  align-self: center;
-  margin-right: 296px;
-  margin-left: 296px;
-  opacity: 0.7;
-}
-
-.SAVE-UP-TO-75 {
-  display: flex;
-  position: absolute;
-  top: 18px;
-  width: 53%;
-  align-self: center;
-  color: white;
-  font-size: 25pt;
-  font-family: 'Montesserat';
-  text-align: center;
-  font-weight: bold;
-  display: none;
-}
-
-.your-mail-address {
-  position: relative;
-  left: 77px;
-  top: -194px;
-  width: 257px;
-  height: 52px;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 16px;
-  flex-grow: 3;
-  padding-left: 18px;
-  display: none;
-}
-
-.submit {
-  position: relative;
-  top: -243px;
-  right: -352px;
-  background: #004cff;
-  width: 106px;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 11px;
-  font-family: 'Montserrat SemiBolt';
-  display: none;
-  padding-bottom: 16px;
-}
-
-.Block-4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 87px;
-    margin-right: auto;
-    margin-top: 126px;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-left: -96px;
-}
-
-.Track {
-  margin-top: -63px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-left: 132px;
-  margin-right: auto;
-  position: relative;
-}
-
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
-}
-
-.Mask-Group-25 {
-  position: relative;
-  left: -285px;
-  top: -27px;
-  align-content: center;
-  align-self: center;
-  display: flex;
-}
-
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: -253px;
-  top: -25px;
-}
-
-
-.Money {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 135px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  left: 345px;
-}
-
-
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
-}
-
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -60px;
-}
-
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -250px;
-  top: -63px;
-}
-
-.Call-centr {
-  position: relative;
-  top: 125px;
-  margin-left: 306px;
-  margin-top: -32px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: relative;
-  top: -36px;
-  left: -286px;
-}
-
-.Group-164 {
-    
-  position: relative;
-  top: -127px;
-  left: 93px;
-}
-
-
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 69px;
-  margin-right: -40px;
-  margin-left: -8px;
-}
-    
-.common-information {
-    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  margin-left: -486px;
-}
-
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: relative;
-  left: 197px;
-}
-
-.About-us {
-    
-  align-self: baseline;
-}
-
-.The-new-hero {
-  margin-top: 40px;
-  align-self: baseline;
-}
-
-
-.Follow {
-padding-top: 45px;
-align-self: baseline;
-}
-
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
-}
-
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.Block-7 {
-        
-        
-  margin-left: 298px;
-    }
-
-.info {
-  left: 502px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -275px;
-  text-decoration: none;
-}
-
-.List_of_Block-7  {
-  margin-top: -267px;
-  padding-left: 505px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-}
-
-
-.List_of_Block-7 li {
-  color: white;
-  padding-top: 15px;
-}
-
-.List_of_Block-7 li a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-
-.Block-8 {
-  position: relative;
-  left: -268px;
-  top: 425px;
-}
-
-.Returns {
-
-  color: white;
-  padding-left: 745px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-8 {
-  margin-top: -282px;
-  padding-left: 746px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  position: relative;
-}
-
-.List_of_Block-8 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-8 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block_9 {
-    
-  position: relative;
-  top: 120px;
-  left: 421px;
-}
-
-.Group-368 {
-  position: relative;
-  left: 70px;
-  top: 12px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: -169px;
-  top: 146px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -85px;
-  top: 179px;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 255px;
-}
-
-    
-.Group-364:hover {
-    border: 2px solid Gold;
-    transition-duration: 1s ease-in-out;
-    border: 4px solid gold;
-    transition: 0.3s ease-in-out;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-bottom: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-}
-    
-.Group-366:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-    
-}
-
-.Group-365:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-}
-
-
-
-
-.Shape-201 {
-  position: relative;
-  top: 326px;
-  margin-left: 78px;
-  margin-right: 17px;
-}
-
-footer {
-  display: flex;
-  margin-top: 364px;
-  padding-bottom: 47px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-
-
-.Status {
-    
-  padding-left: 78px;
-  padding-right: 148px;
-}
-
-.Contact-Us {
-    
-    
-}
-
-.Copyright-2019 {
-    
-  display: flex;
-  padding-top: 43px;
-  padding-left: 78px;
-}
-}
-
-
-
-
-/* Стили для планшета  768px */
-
-@media screen and (min-width: 768px) {
-    
-
-body {
-background: #232323;
-width: 92%;
-overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.Free_Delivery {
-   margin-left: -32px;
-}
-
-
-.Three_icons {
-  margin-right: -16px;
-}
-
-.account_circle {
-  padding-right: 23px;
-}
-
-.Mask_Group_39 {
-  padding-right: 23px;
-}
-
-.Mask_Group_01 {
-    
-}
-
-.Block-1 {
-position: absolute;
-top: 73px;
-}
-
-
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -8px;
-  height: 416px;
-  background-origin: padding-box;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -222px;
-left: 33px;
-width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -140px;
-  left: -206px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 32px;
-  padding-left: 39px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 18pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: -3px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-  width: 23%;
-}
-
-.mobile_burger_button {
-
-  position: relative;
-  top: -474px;
-  left: 666px;
-  width: 63px;
-  display: flex;
-  height: 50px;
-  background: grey;
-  border-radius: 50%;
-}
-
-.line-1 {
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  top: 23px;
-  right: 17px;
-}
-
-
-.line-1::before {
-  content: "";
-  margin-top: 7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-
-.line-1::after {
-  content: "";
-  margin-top: -7px;
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-}
-
-.line-1:hover .main_nav {
-display: flex;
-}
-
-
-.line-1::after :hover .main_nav {
-display: flex;
-
-}
-
-.main_nav {
-  position: absolute;
-  top: 74px;
-  left: -40px;
-  display: none;
-  justify-content: space-between;
-  list-style-image: url('img/main_1/Rectangle 168.png');
-  flex-direction: row;
-}
-
-.main_nav li {
-  padding-right: 30px;
-  font-size: 18px;
-  transition: 0.3s ease-out;
-}
-
-.main_nav li:hover {
-  color: Blue;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-size: 22 px;
-  font-weight: bold;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 397px;
-  right: 31px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 29px;
-  padding-right: 27px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  font-size: 16px;
-}
-
-
-.Group_108 {
-  position: relative;
-  right: -169px;
-  top: -234px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 64px;
-  margin-top: -77px;
-}
-
-
-
-.Block-2_section_one {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 28px;
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  margin-right: 32px;
-}
-    
-.one:hover .one_THE_FUEL_ROYAL_RALLY-1 {
-      display: block;  
-    
-    }
-  
- .one:hover .one_OFF-1 {
-      display: block;  
-        }
-    
-
-.one_THE_FUEL_ROYAL_RALLY-1 {
-  margin-top: -204px;
-  margin-left: -35px;
-  width: 30%;
-  display: none;
-}
-
-.one_OFF-1 {
-  left: 450px;
-  position: absolute;
-  top: 793px;
-  display: none;
-}
-
-.one_UP_TO-1 {
-  position: absolute;
-  left: 451px;
-  top: 752px;
-  display: none;
-}
-
-.one_Blue-background-1 {
-  position: absolute;
-  width: 348px;
-  left: 31px;
-  top: 521px;
-  height: 157px;
-  display: none;
-    }
-    
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-
-
-
-.two-section {
-display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  display: flex;
-  flex-direction: column;
-  align-items: normal;
-  width: 100%;
-  margin-left: 29px;
-}
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -9px;
-  margin-right: 11px;
-  align-items: center;
-  padding-top: 52px;
-}
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  display: flex;
-  align-self: center;
-  padding-left: 0px;
-}
-
-.Helmets_List {
-  list-style: none;
-text-decoration: none;
-margin-top: -126px;
-padding-bottom: 75px;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-left: 43px;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 90px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
-  }
-
-
-.stripe_helmets {
-  margin-top: -57px;
-  background: grey;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  left: -7px;
-}
-
-.pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-  padding-right: 20px;
-}
-
-.Group357 {
-    
-  padding-right: 20px;
-}
-
-.Group356 {
-    
-}
-  
-  .speedometer_and_Sunset {
-        
-    }
-
-.block-3 {
-  padding-top: 40px;
-  margin-right: -44px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 21px;
-}
-
-.speedometers {
-  padding-right: 40px;
-}
-    
-.speedometers:hover .THE_FUEL_ROYAL_RALLY-3-1 {
-   display: flex;     
-    }
-    
-.speedometers:hover .block-3_UP_TO {
-   display: flex;     
-    }
-    
-.speedometers:hover .block-3_OFF {
-   display: flex;     
-    }
-    
-.speedometers:hover .Block-3_Blue-Background {
-   display: flex;     
-    }
-    
-    
-.block-3_1 {
-        
-    }
-
-.Sunset {
- margin-right: 25px;
-}
-   
- 
-
- .Sunset:hover .THE_FUEL_ROYAL_RALLY-3_2 {
-      display: block;  
-            } 
-    
-.block-3-Sunset:hover .block-3_UP_TO-3_2 {
-      display: block;  
-            }
-    
-.block-3-Sunset:hover .block-3_OFF-3_2  {
-      display: block;  
-            }
-    
-.block-3-Sunset:hover .Block-3_Blue-Background-3_2  {
-      display: block;  
-            }
-    
-.block-3_UP_TO-3_2 {
-        
-  position: relative;
-  right: 73px;
-  top: -69px;
-  display: none;
-    }
-    
-.block-3_OFF-3_2 {
-         
-  position: relative;
-  right: 114px;
-  top: -10px;
-  display: none;
-    }
-
-.Block-3_Blue-Background-3_2 {
-
-
-    }
-
-
-.Block-3_2 {
-background-image: url('img/Block_3/harley-davidson-6_OBa-II5Go-unsplash.jpg');
- width: 100%;
- margin-left: auto;
-background-position: center;
+ #block-1 {
+padding-top: 36px;
+background-image: url('img/main_1/harley-davidson-1Lg7p5hC2pI-unsplash.png');
+width: 100%;
+height: 700px;
 background-size: cover;
-margin-left: 21px;
-    }   
-    
-.Block-3_2_Blue-Background {
-  margin-right: 104px;
-  width: 100%;
-  height: 260px;
-  align-content: center;
-  display: flex;
-  align-self: center;
-  margin-right: 53px;
-  margin-left: 53px;
-  opacity: 0.7;
-  display: none;
+background-position: center;
 }
-    
-.Block-3_2:hover .Block-3_2_Blue-Background {
-        display: flex;
-    }
 
-.SAVE-UP-TO-75 {
-  position: relative;
-  top: 31px;
-  width: 51%;
-  align-self: center;
-  color: white;
-  font-size: 25pt;
-  font-family: 'Montesserat';
-  text-align: center;
-  font-weight: bold;
-  display: none;
-  z-index: 2;
+.block-1__container {
+  margin-bottom: 152px;
+  
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.block-1__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  -webkit-box-align: center;
+          -ms-flex-align: center;
+      align-items: center;
+  width: 1060px;
   margin-left: auto;
   margin-right: auto;
-  left: 246px;
-}
-    
-.Block-3_2:hover .SAVE-UP-TO-75 {
-        display: flex;
-        position: absolute;
-        top: 11px;
-        width: 51%;
-        align-self: center;
-        color: white;
-        font-size: 25pt;
-        font-family: 'Montesserat';
-        text-align: center;
-        font-weight: bold;
-        z-index: 2;
-           }
-
-.your-mail-address {
-  position: relative;
-  left: 102px;
-  top: -217px;
-  width: 367px;
-  display: none;
-  padding-top: 18px;
-  padding-bottom: 21px;
-}
-    
-.Block-3_2:hover .your-mail-address {
-     display: flex;   
-        
-     z-index: 4;
-    }
-
-.submit {
-  position: relative;
-  top: -276px;
-  right: -482px;
-  height: 43px;
-  background: #004cff;
-  width: 145px;
-  display: none;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 15px;
-  font-family: 'Montserrat SemiBolt';
-  z-index: 3;
-  padding-top: 18px;
-  padding-bottom: 17px;
-}
-    
-.Block-3_2:hover .submit {
-      display: block;  
-    }
-
-.Block-4 {
-    display: flex;
-
-    margin-bottom: 87px;
-    margin-top: 174px;
-    flex-direction: column;
 }
 
-.Track {
-  margin-top: -63px;
+.block-1__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  left: 72px;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
+.block-1__button {
+  
+  
 }
 
-.Mask-Group-25 {
-  position: relative;
-  left: -285px;
-  top: -27px;
-  align-content: center;
-  align-self: center;
+.block-1__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+-webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+  width: 60%;
 }
 
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: -253px;
-  top: -25px;
-}
-
-
-.Money {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 135px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  left: 352px;
-}
-
-
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
-}
-
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -60px;
-}
-
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -250px;
-  top: -63px;
-}
-
-.Call-centr {
-  position: relative;
-  top: 125px;
-  margin-left: auto;
-  margin-top: 11px;
-  display: flex;
-  align-self: center;
-  margin-right: auto;
-  left: 117px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: absolute;
-  top: -86px;
-  left: -43px;
-}
-
-.Group-164 {
-    
-  position: absolute;
-  top: -87px;
-  left: 73px;
-}
-
-
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: -101px;
-  margin-left: -7px;
-  overflow-x: hidden;
-  margin-top: 184px;
-}
-    
-.createria {
-        
-    }   
-    
-.aaron-torres {
-        
-    } 
-    
-.coolen {
-        
-        
-    }
-
-
-.common-information {
-    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  margin-left: -486px;
-}
-
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: relative;
-  left: 177px;
-}
-
-.About-us {
-    
-  align-self: baseline;
-}
-
-.The-new-hero {
-  margin-top: 40px;
-  align-self: baseline;
-}
-
-
-.Follow {
-padding-top: 45px;
-align-self: baseline;
-}
-
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
-}
-
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.Block-7 {
-        
-        
-  margin-left: 378px;
-    }
-
-.info {
-  left: 502px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -275px;
-  text-decoration: none;
-}
-
-.List_of_Block-7  {
-  margin-top: -267px;
-  padding-left: 505px;
+.nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
+  }
+
+.main_nav-link {
+  color: #404040;
+  text-decoration: none;
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+  margin-right: 52px;
+  }
+
+  .main_nav-link {
+    position: relative;
+    padding-right: 52px;
+  }
+
+.main_nav__link-link {
+color: #404040;
 }
 
-
-.List_of_Block-7 li {
-  color: white;
-  padding-top: 15px;
+ .main_nav-link:hover {
+color: #004cff;
 }
 
-.List_of_Block-7 li a {
-  color: white;
+.main_nav-link:after {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+content: '';
+display: block;
+width: 5px;
+height: 5px;
+background: #004cff;
+-webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+
+ .main_nav-link:after :last-child {
+  margin-right: 0;
   list-style: none;
-  text-decoration: none;
-}
-
-
-
-.Block-8 {
-  position: relative;
-  left: -274px;
-  top: 425px;
-  width: 75%;
-}
-
-.Returns {
-
-  color: white;
-  padding-left: 745px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-8 {
-  margin-top: -282px;
-  padding-left: 746px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  position: relative;
-}
-
-.List_of_Block-8 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-8 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block_9 {
-    
-  position: relative;
-  top: 116px;
-  left: 421px;
-}
-
-.Group-368 {
-  position: relative;
-  left: 70px;
-  top: 15px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: -169px;
-  top: 151px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -85px;
-  top: 183px;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 255px;
-}
-
-    
-.Group-364:hover {
-    border: 2px solid Gold;
-    transition-duration: 1s ease-in-out;
-    border: 4px solid gold;
-    transition: 0.3s ease-in-out;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-bottom: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-}
-    
-.Group-366:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-    
-}
-
-.Group-365:hover {
-    border: 4px solid
-gold;
-
-transition: 0.3s ease-in-out;
-
-padding-top: 2px;
-
-border-radius: 6px;
-
-padding-bottom: 2px;
-
-padding-right: 2px;
-
-padding-left: 2px;
-}
-
-
-
-
-.Shape-201 {
-  position: relative;
-  top: 326px;
-  margin-left: 78px;
-  margin-right: 17px;
-}
-
-footer {
-  margin-top: 364px;
-  padding-bottom: 47px;
-  justify-content: space-between;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-
-
-.Status {
-    
-  padding-left: 135px;
-  margin-right: -66px;
-  display: flex;
-}
-
-.Contact-Us {
-    
-    
-  margin-right: 231px;
-}
-
-.Copyright-2019 {
-    
-  align-self: flex-end;
-  display: flex;
-  margin-top: -3px;
-  padding-left: 263px;
-}
-}
-
-
-
-
-
-
-
-/* стили для разрешения экрана 1024px */ 
-
-@media screen and (min-width: 1000px) {
-                                 
-body {
-background: #232323;
-width: 100%;
-overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.Free_Delivery {
-   margin-left: -128px;
-}
-
-
-.Three_icons {
-  margin-right: -149px;
-}
-
-.account_circle {
-  padding-right: 23px;
-}
-
-.Mask_Group_39 {
-  padding-right: 23px;
-}
-
-.Mask_Group_01 {
-    
-}
-
-.Block_1 {
-position: absolute;
-top: 73px;
-}
-
-
-.harley-davidson {
-  margin-top: 20px;
-  width: 109%;
-  margin-left: -11px;
-}
-
-.safe_and_cool_motorcyclist {
-  position: relative;
-top: -512px;
-left: 115px;
-width: 34%;
-  position: relative;
-  top: -512px;
-  left: 115px;
-  width: 34%;
-}
-
-.discover {
-  position: relative;
-  top: -198px;
-  left: -211px;
-  color: white;
-  border: 6px solid white;
-  padding-right: 32px;
-  padding-left: 39px;
-  padding-top: 17px;
-  padding-bottom: 18px;
-  text-decoration: none;
-  font-size: 18pt;
-  font-family: 'Montserrat SemiBolt';
-  margin-left: -3px;
-}
-
-
-.Group_352 {
-  position: absolute;
-  top: 119px;
-  left: 35px;
-}
-
-
-.main_nav {
-  position: absolute;
-  top: 123px;
-  display: flex;
-  justify-content: space-between;
-  list-style-image: url('img/main_1/Rectangle 168.png');
-left: 424px;
-}
-
-.main_nav li {
-  padding-right: 41px;
-  font-size: 22px;
-}
-
-.main_nav li a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Teko Semibold';
-  font-size: 22 px;
-  font-weight: bold;
-}
-
-.main_nav li a:hover {
-  color: blue;
-}
-
-.Group_351 {
-  position: absolute;
-  top: 108px;
-  right: 67px;
-  display: block;
-  background: #004cff;
-  color: #ffffff;
-  padding-left: 37px;
-  padding-right: 38px;
-  padding-top: 23px;
-  padding-bottom: 26px;
-  font-size: 22px;
-}
-
-
-.Group_108 {
-  position: absolute;
-  right: 88px;
-  top: 626px;
-}
-
-
-.Block-2 {
-  display: flex;
-  flex-direction: column;
-  width: 108%;
-  margin-right: 64px;
-}
-
-
-
-.Block-2_section_one {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 28px;
-}
-
-.one {
-  padding-left: 23px;
-  padding-top: 23px;
-  flex-grow: 3;
-  margin-right: -179px;
-}
-
-
-.two {
-   padding-top: 23px;
-   padding-right: 30px;
-}
-    
-
-.THE_FUEL_ROYAL_RALLY {
-    
-  align-self: flex-start;
-  position: absolute;
-  top: 907px;
-  left: 145px;
-}
-
-.OFF {
-  left: -32px;
-  align-self: center;
-  position: relative;
-  top: 83px;
-}
-
-.UP_TO {
-  position: relative;
-  top: -14px;
-  left: -169px;
-  align-self: center;
-}
-
-.two-section {
-display: flex;
-flex-direction: row;
-}
-
-.harley-davidson-2 {
-  align-self: flex-end;
-  padding-right: 31px;
-}
-
-.harley-davidson-1 {
-  padding-left: 23px;
-  padding-right: 29px;
-}
-
-
-.Helmets {
-  padding-top: 45px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.pictures_of_helmets {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -6px;
-  margin-right: 35px;
-  align-content: center;
-  align-items: center;
-  padding-top: 52px;
-}
-
-.OUR_PRODUCT {
-  padding-bottom: 170px;
-  padding-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 387px;
-}
-
-
-.Helmets_List_and_stripe {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.Helmets_List {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  margin-top: -126px;
-  padding-bottom: 75px;
-  padding-left: 333px;
-}
-
-.Helmets_List li {
-    
-}
-
-.Helmets_List li a {
-  color: white;
-  font-size: 14pt;
-  padding-right: 90px;
-  text-decoration: none;
-}
-
-.Helmets_List li a:hover {
-  color: #0077ff;
   }
 
 
-.stripe_helmets {
-  padding-top: 1px;
-  margin-top: -57px;
-  background: grey;
-  margin-left: -7px;
-  margin-right: 35px;
+.block-1__button {
+  background: #004cff;
+  height: 66px;
+  padding-left: 14px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 21px;
+  padding-right: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.block-1__button:hover {
+background-color: #0a3fbb;
+
+}
+
+.block-1__promo {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    flex-direction: column;
+width: 1060px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.safe_and_cool_motorcyclist {
+ margin-bottom: 60px;
+ color: #ffffff;
+ font-family: 'Teko';
+ font-size: 68px;
+ font-weight: 700;
+ line-height: 72px;
+ letter-spacing: 2.73px;
+ max-width: 400px;
+}
+
+.block-1__promo__button_anchor {
+
+
+
+}
+
+
+.block-1__promo__button {
+ padding-left: 48px;
+padding-right: 48px;
+width: 265px;
+height: 61px;
+border: 6px solid #ffffff;
+color: #ffffff;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+display: inline-block;
+text-decoration: none;
+ padding-top: 13px;
+}
+
+
+.block-1__promo__button:hover {
+color: #ffd03b;
+border-color: #ffd03b;
+-webkit-transition: background-color 0.2s ease-in;
+transition: background-color 0.2s ease-in;
+
+}
+
+.anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack:end;
+          -ms-flex-pack:end;
+      justify-content:end;
+}
+
+.Block-2__top-block {
+padding-top: 44px;
+padding-bottom: 60px;
+
+}
+
+.container-wide {
+max-width: 1350px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.top-banners__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.banner-first {
+position: relative;
+height: 400px;
+margin-right: 40px;
+width: 889px;
+}
+
+.banner-image-one {
+ width: 100%;
+  height: 100%;
+}
+
+.banner-first__image--content {
+  display: block;
+  opacity: 0;
+}
+
+.banner-first__image--content:hover {
+opacity: 1;
+-webkit-transition: 0.3s ease-in;
+transition: 0.3s ease-in;
+
+}
+
+.banner-first__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.banner-first__blue--background {
+  background-color: rgba(0,76,255,0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+ 
+}
+
+.banner-first__THE_FUEL_ROYAL_RALLY {
+  position: absolute;
+  top: 60px;
+  left: 75px;
+  width: 390px;
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 2.73px;
+}
+
+
+.banner-first__discount {
+width: 143px;
+position: absolute;
+right: 38px;
+bottom: 30px;
+color: #ffffff;
+font-family: 'Teko';
+font-size: 68px;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+}
+
+
+.banner-first__discount span {
+font-size: 43px;
+font-weight: 500;
+line-height: 1;
+text-transform: uppercase;
+}
+
+
+.banner-second {
+ height: 400px;
+ width: 417px;
+}
+
+
+.banner-second--image {
+width: 100%;
+  height: 100%;
+}
+
+.banner-second__image--content {
+  display: block;
+  opacity: 1;
+  background-color: rgba(0,76,255,0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+}
+
+
+.banner-second__image--content:hover {
+ 
+}
+
+.banner-second__blue--background {
+
+}
+
+.banner-second__THE_FUEL_ROYAL_RALLY {
+
+}
+
+
+.banner-second__discount {
+
+}
+
+.banner-second__discount span {
+
+}
+
+.bottom-banners__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-third {
+  margin-right: 40px;
+  width: 417px;
+  height: 402px;
+}
+
+
+.banner-third--img {
+
+
+  width: 100%;
+  height: 100%;
+}
+
+.banner-fourth {
+  display: contents;
+  position: relative;
+  width: 890px;
+  height: 400px;
+}
+
+.banner-fourth--img {
+
+  
+}
+
+.products {
+  padding-top: 60px;
+  padding-bottom: 65px;
+  
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1270px;
+}
+
+.products_title {
+  margin-bottom: 45px;
+  color: #f1f1f1;
+  font-family: 'Teko', sans-serif;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.products__filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+          -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: 1px solid #b2b2b2;
+  padding-bottom: 45px;
+  width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products__filter-item {
+color: #f1f1f1;
+font-family: 'Montserrat', sans-serif;
+font-size: 21px;
+font-weight: 600;
+line-height: 1.3;
+text-decoration: none;
+margin-right: 45px;
+}
+
+.products__filter-item:hover {
+color: #0077ff ;
+
+}
+
+.products__filter-item:last-child {
+  margin-right: 0;
 }
 
 .pictures_of_helmets {
-    
-    
-}
-
-.Group358 {
-    
-}
-
-.Group357 {
-    
-}
-
-.Group356 {
-    
-}
-
-
-
-.block-3 {
-  padding-top: 125px;
-  padding-left: 23px;
-  margin-right: -62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1060px;
 }
 
-.Block-3_2-pictures {
+
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding-bottom: 40px;
+ -webkit-box-align: center;
+         -ms-flex-align: center;
+     align-items: center;
+width: 290px;
+height: 367px;
+background-color: #ffffff;
+  -webkit-box-pack: center;
+          -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+      flex-direction: column;
+  margin-top: 45px;
 }
 
-.speedometers {
-  padding-right: 40px;
+
+.cards__img {
+width: 251px;
+height: 281px;
+padding-top: 48px;
+padding-bottom: 38px;
+padding-left: 44px;
+padding-right: 44px;
 }
 
-.block-3-Sunset {
- margin-right: -250px;
+.cards__title {
+color: #262626;
+font-size: 17px;
+font-weight: 400;
+line-height: 1.1;
+padding-left: 38px;
+padding-right: 38px;
+margin-bottom: 25px;
 }
 
-.Blue_Background {
-    
+
+.cards__price {
+color: #004cff;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.25;
+margin-bottom: 30px;
+padding-left: 107px;
+padding-right: 107px;
+
 }
 
-.SAVE-UP-TO-75 {
+.banners_bottom {
+  margin-top: 130px;
+}
+
+.banners_bottom__pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding-left: 378px;
-  padding-right: 350px;
-  position: relative;
-  top: -373px;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 1310px;
 }
 
-.your-mail-address {
-  position: relative;
-  left: 197px;
-  top: -282px;
-  width: 827px;
-  height: 62px;
+
+.banners_bottom__speedometer {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    max-width: 1000px;
+    margin-right: 40px;
+    padding-left: 40px;
 }
 
-.submit {
-  position: relative;
-  top: -350px;
-  right: -929px;
-  height: 48px;
-  background: #004cff;
-  width: 190px;
+.speedometer {
+ width: 529px;
+height: 486px;
+}
+
+
+.banners_bottom__speedometer:hover .banners_bottom__image--content {
   display: block;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  padding-top: 20px;
-  font-family: 'Montserrat SemiBolt';
-}
-
-.Block-4 {
-    display: flex;
-    justify-content: space-between;
-
-flex-direction: row;
-    margin-left: -82px;
-    margin-bottom: -103px;
-}
-
-.Track {
-  margin-top: -63px;
-  margin-left: -35px;
-}
-
-.Rectangle-103 {
-  margin-left: 237px;
-  margin-top: -56px;
-}
-
-.Mask-Group-25 {
-  position: relative;
-  left: 265px;
-  top: -127px;
-}
-
-.Lorem-Ipsum {
-  position: relative;
-  left: -272px;
-  top: -40px;
-}
-
-.Group-160 {
-  position: relative;
-  left: 287px;
-  top: -128px;
+  cursor: pointer;
 }
 
 
-.Money {
-  margin-left: 356px;
+.banners_bottom__image--content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
 }
 
 
-.Rectangle-104 {
-  display: flex;
-  margin-top: -119px;
-  margin-left: -323px;
+.banners_bottom__blue--background {
+  background-color: rgba(0,76,255,0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+  display: block;
 }
 
-.Mask-Group-6 {
-  position: relative;
-  left: -287px;
-  top: -124px;
+.banners_bottom__THE_FUEL_ROYAL_RALLY {
+  position: absolute;
+  top: 70px;
+  left: 75px;
+  width: 384px;
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 2.73px;
+  display: block;
 }
 
-.Money-Back-Guarantee {
-  position: relative;
-  top: -225px;
-}
-
-.Group-162 {
-  position: relative;
-  left: -166px;
-  top: -217px;
-}
-
-.Call-centr {
-  margin-left: -11px;
-}
-
-.Rectangle-119 {
-  margin-top: -119px;
-  margin-left: -84px;
-}
-
-.support {
-    
-  position: relative;
-  top: -128px;
-  left: -45px;
-}
-
-.Group-164 {
-    
-  position: relative;
-  top: -127px;
-  left: -17px;
-}
-
-.Block_5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: -101px;
-  margin-left: -7px;
-  overflow-x: hidden;
-  margin-top: -196px;
+.banners_bottom__discount {
+width: 143px;
+position: absolute;
+right: 38px;
+bottom: 78px;
+color: #ffffff;
+font-family: 'Teko';
+font-size: 50px;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+display: block;
 }
 
 
-.common-information {
-    
-  margin-left: -254px;
+.banners_bottom__Sunset:hover .banners_bottom__Sunset--content {
+  display: block;
+  cursor: pointer;
 }
 
-.Block_6 {
-  padding-top: 122px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: flex-start;
-  margin-right: -169px;
-  margin-left: -175px;
+.banners_bottom__Sunset {
+  
+  
 }
 
-.About-us {
-    
+.Sunset {
+  width: 696px;
+  height: 486px;
 }
 
-.The-new-hero {
+.banners_bottom__Sunset--content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.banners_bottom__Sunset__blue--background {
+  background-color: rgba(0,76,255,0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+  display: block;
+}
+
+.banners_bottom__Sunset__THE_FUEL_ROYAL_RALLY {
+  position: absolute;
+  top: 70px;
+  left: 75px;
+  width: 384px;
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 2.73px;
+  display: block;
+}
+
+.banners_bottom__Sunset__discount {
+  width: 143px;
+  position: absolute;
+  right: 38px;
+  bottom: 78px;
+  color: #ffffff;
+  font-family: 'Teko';
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  display: block;
+}
+
+
+.subscribe-wrapper {
   margin-top: 40px;
 }
 
-
-.Follow {
-padding-top: 45px;
+.subscribe {
+height: 445px;
+position: relative;
 }
 
-.social-sociaties {
-  top: 78px;
-  margin-right: 51px;
-  align-items: stretch;
+.subscribe__img {
+width: 100%;
+height: 550px;
+-o-object-fit: cover;
+   object-fit: cover;
+-o-object-position: center;
+   object-position: center;
+}
+
+
+.subscribe__overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 550px;
+background-color: rgba(0,76,255,0.75);
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+-webkit-box-align: center;
+        -ms-flex-align: center;
+    align-items: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.subscribe__title {
+color: #ffffff;
+font-family: 'Teko' , sans-serif ;
+font-size: 97px;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+margin-bottom:100px;
+}
+
+
+.subscribe__form {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 900px;
+}
+
+.subscribe__input {
+background-color: #ffffff;
+padding: 0;
+color: #707070;
+font-family: 'Montserrat' , sans-serif;
+font-size: 19px;
+border: none;
+padding: 0 44px;
+-webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.subscribe__button {
+        width: 180px;
+        height: 62px;
+        background-color: #004cff;
+        color: #ffffff;
+        font-family: "Montserrat - Semi Bold";
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.5s ease-in ;
+        -webkit-transition: background-color 0.5s ease-in ;
+        -moz-transition: background-color 0.5s ease-in ;
+        -ms-transition: background-color 0.5s ease-in ;
+        -o-transition: background-color 0.5s ease-in ;
+       -ms-flex-negative: 0;
+           flex-shrink: 0;
+}
+
+.subscribe__button:hover {
+  color: #3471ff;
+}
+
+
+.section-service {
+  padding-top: 104px;
+  padding-bottom: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-left: 0px;
 }
 
-.fb {
-  align-self: flex-start;
-  padding-right: 15px;
-}
-
-.insta {
-  padding-right: 15px;
-}
-
-.twiter {
-  padding-right: 15px;
-}
-
-.in {
-   padding-right: 15px;
-}
-
-.info {
-  padding-left: 501px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -280px;
-  text-decoration: none;
-}
-
-.List_of_Block-6 {
-  margin-top: -267px;
-  padding-left: 505px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-}
-
-
-.List_of_Block-5 li {
-  color: white;
-  padding-top: 15px;
-}
-
-.List_of_Block-5 li a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-.Returns {
-
-  color: white;
-  padding-left: 751px;
-  color: white;
-  font-size: 25pt;
-  display: block;
-  position: relative;
-  top: -291px;
-  text-decoration: none;
-}
-
-.List_of_Block-6 {
-  margin-top: -405px;
-  padding-left: 597px;
-  list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-}
-
-.List_of_Block-6 li {
- list-style: none;
-  font-size: 18pt;
-  font-family: 'Montsserat Regular';
-  color: white;
-  padding-top: 16px;
-}
-
-.List_of_Block-6 li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.Block-8 {
-  padding-left: 1095px;
-  position: relative;
-  top: 514px;
-}
-
-.List_of_Block-8 {
-
-}
-
-.Block_9 {
-    position: relative;
-
-top: -366px;
-
-left: 766px;
-}
-
-
-.Group-368 {
-  position: relative;
-  left: 910px;
-  top: -457px;
-}
-
-.Street-addresses {
-  position: relative;
-  left: 673px;
-  top: -322px;
-}
-
-.payment_systems {
-  position: relative;
-  right: -926px;
-  top: -277px;
-}
-
-.Group-366 {
-    
-    
-}
-
-.Group-365 {
-    
-}
-
-.Group-364 {
-    
-}
-
-
-.Shape-201 {
- position: relative;
-top: -113px;
-margin-left: 72px;
-margin-right: -19px;
-}
-
-footer {
+.section-service__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  margin-top: -146px;
-  padding-right: 87px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 
-
-.Status {
-    
-  padding-left: 345px;
+.service-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 338px;
+  height: 165px;
+  border: 3px solid #707070;
+  background-color: #ffffff;
+  color: #000;
+  padding-left: 30px;
+  padding-bottom: 17px;
+  padding-right: 30px;
+  margin-top: 104px;
+  padding-top: 23px;
 }
 
-.Contact-Us {
-    
-    
-  margin-left: -420px;
+.service-block__background {
+
 }
 
-.Copyright-2019 {
-  margin-left: 28px;
-  margin-right: 31px;
+.Track {
+
+  padding-top: 12px;
+  padding-bottom: 16px;
 }
+
+.service-block__description {
+  width: 144px;
+  margin-top: -26px;
+  padding-top: 10px;
+  margin-bottom: 7px;
 }
+
+
+.service-block__title {
+color: #262626;
+font-size: 13px;
+font-weight: 700;
+line-height: 1.44;
+min-height: 40px;
+}
+
+
+.service-block__text {
+color: #707070;
+font-size: 11px;
+font-weight: 400;
+line-height: 1.5;
+width: 153px;
+}
+
+.Money {
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.operator {
+  
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+
+.gallery {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.gallery-item {
+  width: 33.33%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position:center;
+     object-position:center;
+}
+
+
+.footer {
+padding-top: 120px;
+
+}
+
+.footer__row {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+
+margin-top: 80px;
+}
+
+.footer__column {
+max-width: 250px;
+margin-right: 110px;
+}
+
+.footer__title-About_us {
+width: 116px;
+height: 18px;
+color: #ffffff;
+font-family: "Montserrat - Semi Bold";
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer__group {
+width: 270px;
+
+}
+
+.footer__title-Follow_us {
+width: 118px;
+height: 18px;
+color: #ffffff;
+font-family: "Montserrat - Semi Bold";
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.footer__title-Info {
+width: 148px;
+height: 19px;
+color: #ffffff;
+font-family: "Montserrat - Semi Bold";
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer__text {
+width: 270px;
+height: 87px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 19px;
+font-weight: 400;
+line-height: 33.75px;
+margin-bottom: 68px;
+}
+
+.footer__list {
+margin: 0;
+padding: 0;
+list-style: none;
+color: #ffffff;
+font-size: 19px;
+font-weight: 400;
+line-height: 1.5;
+}
+
+.footer__list-item {
+margin-bottom: 10px;
+}
+
+.footer__logo {
+  padding-top: 30px;
+  margin-bottom: 45px;
+}
+
+.footer_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.copyright {
+  max-width: 1306px;
+border-top: 2px solid #b2b2b2;
+  margin-top: -83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.copyright__row {
+  margin-top: 41px;
+    width: 1142px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+        justify-content: space-between;
+    max-width: 1600px;
+}
+
+
+.copyright__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 16px;
+}
+
+.copyright__links-item {
+  margin-right: 44px;
+ }
+
+.copyright__links-item a {
+font-size: 19px;
+line-height: 1.7;
+color: #b2b2b2;
+letter-spacing: 0.13px;
+text-decoration: none;
+}
+
+.copyright__text {
+text-decoration: none;
+padding-right: 119px;
+color: #b2b2b2;
+font-size: 19px;
+font-weight: 600;
+line-height: 1.7;
+letter-spacing: 0.13px;
+}
+
 
 
 
